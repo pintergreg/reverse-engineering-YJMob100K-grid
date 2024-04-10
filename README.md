@@ -16,3 +16,10 @@
 4. Census data
     - The [Population Census 2020, Population, Households, Sex, Age and Marital status, Table 1-1](https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00200521&tstat=000001136464&cycle=0&year=20200&month=24101210&tclass1=000001136466) was downloaded from the
      Portal Site of Official Statistics of Japan website (https://www.e-stat.go.jp/)
+
+## License
+
+- The code is licensed under MIT
+- The documentation and figures are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- The shape files are from OpenStreetMap and licensed under the Open Data Commons Open Database License (ODbL)
+- The census data was downloaded from the Portal Site of Official Statistics of Japan website (https://www.e-stat.go.jp/)
