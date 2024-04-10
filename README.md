@@ -21,5 +21,5 @@
 
 - The code is licensed under [BSD-3-Clause](LICENSE)
 - The documentation and figures are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- The shape files are from OpenStreetMap and licensed under the Open Data Commons Open Database License (ODbL)
+- The shape files are from OpenStreetMap and licensed under the Open Data Commons Open Database License ([ODbL](https://opendatacommons.org/licenses/odbl/1-0/))
 - The census data was downloaded from the Portal Site of Official Statistics of Japan website (https://www.e-stat.go.jp/)
