@@ -1,4 +1,4 @@
-# Reverse-engineering the spatial dimension  of the 'YJMob100K' data
+# Reverse-engineering the observation area of the 'YJMob100K' data
 
 ## Usage
 
