@@ -22,7 +22,7 @@ Most notably, the [reproduced grid](output/grid_bl_2449.geojson) (in [EPSG:2449]
 
 ### Choropleth maps using the reproduced grid
 
-The spatial distribution of the activity (left) and the number of unique users (right) per cell using the reproduced grid.
+The spatial distribution of the activity (first) and the number of unique users (second) per cell using the reproduced grid.
 
 <img src="figures/activity_terrain_2449.png" alt="spatial distribution of activity" title="spatial distribution of activity" width="300">
 <img src="figures/user_count_terrain_2449.png" alt="spatial distribution of unique users" title="spatial distribution of unique users" width="300">
