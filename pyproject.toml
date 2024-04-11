@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "reverse-engineering-YJMob100K-grid"
 version = "0.1.0"
-description = "Reverse-engineering the spatial dimension of the 'YJMob100K' data"
+description = "Reverse-engineering the observation area of the 'YJMob100K' data"
 keywords = ["mobile positioning data", "urban mobility", "YJMob100K", "HuMob2023 challenge", "reverse-engineering"]
 authors = ["Gergő Pintér <gergo.pinter@uni-corvinus.hu>"]
 readme = "README.md"
