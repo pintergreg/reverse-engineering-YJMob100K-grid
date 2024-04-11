@@ -1,5 +1,27 @@
 # Reverse-engineering the spatial dimension of the 'YJMob100K' data
 
+## Usage
+
+The [`pyproject.toml`](pyproject.toml) document the required dependencies. It's suggested to use the [Poetry](https://python-poetry.org/) packaging tool. In this case, just issue the `poetry install` command to set up a virtual environment with all the necessary dependencies.
+
+After the development environment has set up, run the notebooks in the following order to reproduce the results.
+
+1. [plot_heatmaps.ipynb](src/plot_heatmaps.ipynb)
+    - this will reproduce the heatmaps [Figure 6] from the [data description paper](https://arxiv.org/abs/2307.03401),
+    - do the inverse-transformed plots, and
+    - some related plots for the paper
+2. [locate_observation_area.ipnyb](src/locate_observation_area.ipynb)
+   - this will locate the observation area within Japan and generate the grid
+
+These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_homes.ipynb), [validate_home_detection.ipynb](src/validate_home_detection.ipynb) and the [calculate_grid_complexity.ipynb](src/calculate_grid_complexity.ipynb) are optional steps to reproduce the figure in the technical validation section of the paper.
+
+<!-- https://packaging.python.org/en/latest/guides/writing-pyproject-toml/ -->
+
+## Results
+
+The results are included to be available without executing the code.
+Most notably, the [reproduced grid](output/grid_bl_2449.geojson).
+
 ## Data sources
 
 1. Mobility data: [YJMob100K](https://zenodo.org/records/10836269)
