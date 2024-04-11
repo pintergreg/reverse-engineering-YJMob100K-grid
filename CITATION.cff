@@ -17,8 +17,9 @@ authors:
 #   - type: doi
 #     value: ""
 #     description: arXiv
-repository-code: >-
-  https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
+repository-code: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
+url: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
+date-released: 2024-04-12
 abstract: >-
   A metropolitan scale, longitudinal, anonymized mobility
   trajectory data was released, which follows 100000
