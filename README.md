@@ -1,4 +1,4 @@
-# Reverse-engineering the spatial dimension of the 'YJMob100K' data
+# Reverse-engineering the spatial dimension  of the 'YJMob100K' data
 
 ## Usage
 
@@ -15,12 +15,23 @@ After the development environment has set up, run the notebooks in the following
 
 These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_homes.ipynb), [validate_home_detection.ipynb](src/validate_home_detection.ipynb) and the [calculate_grid_complexity.ipynb](src/calculate_grid_complexity.ipynb) are optional steps to reproduce the figure in the technical validation section of the paper.
 
-<!-- https://packaging.python.org/en/latest/guides/writing-pyproject-toml/ -->
-
 ## Results
 
 The results are included to be available without executing the code.
 Most notably, the [reproduced grid](output/grid_bl_2449.geojson).
+
+<!-- ## Citation
+
+Use the following BibTeX entry to cite the paper.
+
+<details>
+  <summary>BibTeX</summary>
+  <pre>
+
+  </pre>
+</details>
+
+The code can be cited via [GitHub](https://github.com/pintergreg/reverse-engineering-YJMob100K-grid). -->
 
 ## Data sources
 
