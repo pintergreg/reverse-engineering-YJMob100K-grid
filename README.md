@@ -13,7 +13,7 @@ After the development environment has set up, run the notebooks in the following
 2. [generate_grid.ipnyb](src/generate_grid.ipynb)
    - this will locate the observation area within Japan and generate the grid
 
-These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_homes.ipynb), [validate_home_detection.ipynb](src/validate_home_detection.ipynb) and the [calculate_grid_complexity.ipynb](src/calculate_grid_complexity.ipynb) are optional steps to reproduce the figure in the technical validation section of the paper.
+These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_homes.ipynb), [validate_home_detection.ipynb](src/validate_home_detection.ipynb), [calculate_grid_complexity.ipynb](src/calculate_grid_complexity.ipynb), and the [src/plot_grid.ipynb](src/plot_grid.ipynb) are optional steps to reproduce the figure in the technical validation section of the paper.
 
 ## Results
 
