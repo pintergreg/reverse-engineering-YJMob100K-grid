@@ -1,0 +1,56 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Reverse-engineering the observation area of the 'YJMob100K' data
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file, and the paper via arXiv.
+type: software
+authors:
+  - given-names: Gergő
+    family-names: Pintér
+    email: gergo.pinter@uni-corvinus.hu
+    affiliation: Corvinus University of Budapest
+    orcid: 'https://orcid.org/0000-0003-4731-3816'
+# identifiers:
+#   - type: doi
+#     value: ""
+#     description: arXiv
+repository-code: >-
+  https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
+abstract: >-
+  A metropolitan scale, longitudinal, anonymized mobility
+  trajectory data was released, which follows 100000
+  individuals across 90 days in an undisclosed geographic
+  location.
+  To preserve the privacy of the users, the temporal and the
+  spatial dimensions were discretized in addition to the
+  unrevealed metropolitan area.
+  This work aims to show that the non-disclosure of the
+  spatial location of the observation area cannot hide the
+  characteristics of the city.
+  The spatial discretization involved a grid and the
+  mobility data was published using the relative coordinates
+  within the grid.
+  The characteristics of the mobility data such as the
+  number of activity records or the number of unique users
+  in a grid cell were used to deduce the city landscape,
+  then a template matching method was used to find the city
+  location in the map.
+  Even if the exact location is undisclosed, the
+  characteristics of human mobility can reveal the urban
+  area was the mobility data was captured.
+  This paper presents the reverse-engineering process of the
+  spatial grid that was used to discretize the geographic
+  locations of the individuals.
+  Also, widely used urban mobility techniques were applied
+  to validate the uncovered spatial location of the mobile
+  position data.
+keywords:
+  - mobile positioning data
+  - urban mobility
+  - YJMob100K
+  - HuMob2023 challenge
+  - reverse-engineering
+license: BSD-3-Clause
