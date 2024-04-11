@@ -18,7 +18,7 @@ These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_h
 ## Results
 
 The results are included to be available without executing the code.
-Most notably, the [reproduced grid](output/grid_bl_2449.geojson).
+Most notably, the [reproduced grid](output/grid_bl_2449.geojson) (in [EPSG:2449](https://spatialreference.org/ref/epsg/2449/) projection).
 
 <!-- ## Citation
 
