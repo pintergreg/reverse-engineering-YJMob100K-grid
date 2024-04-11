@@ -10,7 +10,7 @@ After the development environment has set up, run the notebooks in the following
     - this will reproduce the heatmaps [Figure 6] from the [data description paper](https://arxiv.org/abs/2307.03401),
     - do the inverse-transformed plots, and
     - some related plots for the paper
-2. [locate_observation_area.ipnyb](src/locate_observation_area.ipynb)
+2. [generate_grid.ipnyb](src/generate_grid.ipynb)
    - this will locate the observation area within Japan and generate the grid
 
 These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_homes.ipynb), [validate_home_detection.ipynb](src/validate_home_detection.ipynb) and the [calculate_grid_complexity.ipynb](src/calculate_grid_complexity.ipynb) are optional steps to reproduce the figure in the technical validation section of the paper.
