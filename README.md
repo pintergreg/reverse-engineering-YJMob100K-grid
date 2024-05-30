@@ -34,6 +34,23 @@ These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_h
 4. [Dallas--Fort Worth](src/dallas.ipynb)
     - `RES` parameter is for the H3 resolution, vales between 6 and 10 were applied
 
+### User identifiability
+
+A user is considered k-identifiable if the most frequently visited k location are distinguishable [^zang2011anonymization].
+The top four location have been determined for every user, then the grid cell were upscaled to 1, 2, 4, 8, and 16 km.
+
+The following table compares the top-four-location identifiable users by upscaled grids.
+The relevant notebook is [here](src/top_cell_identifiability.ipynb).
+
+|   distinguishable cells |   1 km x 1 km |   2 km x 2 km |   4 km x 4 km |   8 km x 8 km |   16 km x 16 km |
+|------------------------:|--------------:|--------------:|--------------:|--------------:|----------------:|
+|                       4 |         35469 |         12882 |          5090 |          1810 |             470 |
+|                       3 |         48228 |         42323 |         28457 |         16752 |            7438 |
+|                       2 |         15582 |         38548 |         50987 |         52608 |           44939 |
+|                       1 |           721 |          6247 |         15466 |         28830 |           47153 |
+
+[^zang2011anonymization]: Hui Zang and Jean Bolot. 2011. Anonymization of location data does not work: a large-scale measurement study. In Proceedings of the 17th annual international conference on Mobile computing and networking (MobiCom '11). Association for Computing Machinery, New York, NY, USA, 145–156. https://doi.org/10.1145/2030613.2030630
+
 ## Results
 
 The results are included to be available without executing the code.
