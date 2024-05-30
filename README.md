@@ -15,6 +15,18 @@ After the development environment has set up, run the notebooks in the following
 
 These two notebooks contain the main work. The [detect_homes.ipynb](src/detect_homes.ipynb), [validate_home_detection.ipynb](src/validate_home_detection.ipynb), [calculate_grid_complexity.ipynb](src/calculate_grid_complexity.ipynb), and the [src/plot_grid.ipynb](src/plot_grid.ipynb) are optional steps to reproduce the figure in the technical validation section of the paper.
 
+### Other cities
+
+1. [Helsinki](src/helsinki.ipynb)
+    - the Helsinki notebook processes the data for different grid sizes in one run
+2. [London](src/london.ipynb)
+    - `rx` and `ry` parameters are for the grid size, use either 500, 1000, 2000, or 4000
+3. [Toronto](src/london.ipynb)
+    - it is the same notebook as for London, because the dataset is the same
+    - enable the Toronto parameter block
+4. [Dallas--Fort Worth](src/dallas.ipynb)
+    - `RES` parameter is for the H3 resolution, vales between 6 and 10 were applied
+
 ## Results
 
 The results are included to be available without executing the code.
