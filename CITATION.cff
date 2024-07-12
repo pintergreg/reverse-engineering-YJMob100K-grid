@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Reverse-engineering the observation area of the 'YJMob100K' data
+title: Revealing urban area from mobile positioning data
 message: >-
   If you use this software, please cite it using the
   metadata from this file, and the paper via arXiv.
@@ -19,35 +19,16 @@ authors:
 #     description: arXiv
 repository-code: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
 url: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
-date-released: 2024-04-12
+date-released: 2024-07-12
 abstract: >-
-  A metropolitan scale, longitudinal, anonymized mobility
-  trajectory data was released, which follows 100000
-  individuals across 90 days in an undisclosed geographic
-  location.
-  To preserve the privacy of the users, the temporal and the
-  spatial dimensions were discretized in addition to the
-  unrevealed metropolitan area.
-  This work aims to show that the non-disclosure of the
-  spatial location of the observation area cannot hide the
-  characteristics of the city.
-  The spatial discretization involved a grid and the
-  mobility data was published using the relative coordinates
-  within the grid.
-  The characteristics of the mobility data such as the
-  number of activity records or the number of unique users
-  in a grid cell were used to deduce the city landscape,
-  then a template matching method was used to find the city
-  location in the map.
-  Even if the exact location is undisclosed, the
-  characteristics of human mobility can reveal the urban
-  area was the mobility data was captured.
-  This paper presents the reverse-engineering process of the
-  spatial grid that was used to discretize the geographic
-  locations of the individuals.
-  Also, widely used urban mobility techniques were applied
-  to validate the uncovered spatial location of the mobile
-  position data.
+  Researchers face the trade-off between publishing mobility data along with their papers, and at the same time, preserve privacy of the individuals.
+  Besides the fundamental anonymization, spatial discretization and, in some cases, location concealing or complete removal are applied to achieve both goals.
+  The main research question is whether concealing the observation area works as a sufficient protection or human mobility characterized by the urban area to the extent that it can inherently reveal the location.
+  The characteristics of the mobility data, such as the number of activity records or the number of unique users in a grid cell, make visible the silhouette of the urban landscape, which can be used to deduce the city landscape, using a template matching method to locate the city location on the map.
+  I showed that even if the exact location is undisclosed, the characteristics of human mobility can reveal the urban area where the mobility data was captured.
+  The presented locating method was tested on other cities using different open data sets.
+  While publishing mobility data is essential for research, concealing the observation area cannot prevent the identification of the urban area.
+  Furthermore, using larger discretization units alone cannot solve the problem of the observation area re-identification.
 keywords:
   - mobile positioning data
   - urban mobility
