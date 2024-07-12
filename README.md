@@ -1,4 +1,4 @@
-# Reverse-engineering the observation area of the 'YJMob100K' data
+# Revealing urban area from mobile positioning data
 
 ## Usage
 
