@@ -21,14 +21,15 @@ repository-code: https://github.com/pintergreg/reverse-engineering-YJMob100K-gri
 url: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
 date-released: 2024-07-12
 abstract: >-
-  Researchers face the trade-off between publishing mobility data along with their papers, and at the same time, preserve privacy of the individuals.
-  Besides the fundamental anonymization, spatial discretization and, in some cases, location concealing or complete removal are applied to achieve both goals.
-  The main research question is whether concealing the observation area works as a sufficient protection or human mobility characterized by the urban area to the extent that it can inherently reveal the location.
-  The characteristics of the mobility data, such as the number of activity records or the number of unique users in a grid cell, make visible the silhouette of the urban landscape, which can be used to deduce the city landscape, using a template matching method to locate the city location on the map.
-  I showed that even if the exact location is undisclosed, the characteristics of human mobility can reveal the urban area where the mobility data was captured.
-  The presented locating method was tested on other cities using different open data sets.
-  While publishing mobility data is essential for research, concealing the observation area cannot prevent the identification of the urban area.
-  Furthermore, using larger discretization units alone cannot solve the problem of the observation area re-identification.
+  Researchers face the trade-off between publishing mobility data along with their papers while simultaneously protecting the privacy of the individuals.
+  In addition to the fundamental anonymization process, other techniques, such as spatial discretization and, in certain cases, location concealing or complete removal, are applied to achieve these dual objectives.
+  The primary research question is whether concealing the observation area is an adequate form of protection or whether human mobility patterns in urban areas are inherently revealing of location.
+  The characteristics of the mobility data, such as the number of activity records or the number of unique users in a given spatial unit, reveal the silhouette of the urban landscape, which can be used to infer the identity of the city in question.
+  It was demonstrated that even without disclosing the exact location, the patterns of human mobility can still reveal the urban area from which the data was collected.
+  The presented locating method was tested on other cities using different open data sets and against coarser spatial discretization units.
+  While publishing mobility data is essential for research, it was demonstrated that concealing the observation area is insufficient to prevent the identification of the urban area.
+  Furthermore, using larger discretization units alone is an ineffective solution to the problem of the observation area re-identification.
+  Instead of obscuring the observation area, noise should be added to the trajectories to prevent user identification.
 keywords:
   - mobile positioning data
   - urban mobility
