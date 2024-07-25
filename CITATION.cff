@@ -19,7 +19,7 @@ authors:
 #     description: arXiv
 repository-code: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
 url: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
-date-released: 2024-07-12
+date-released: 2024-07-25
 abstract: >-
   Researchers face the trade-off between publishing mobility data along with their papers while simultaneously protecting the privacy of the individuals.
   In addition to the fundamental anonymization process, other techniques, such as spatial discretization and, in certain cases, location concealing or complete removal, are applied to achieve these dual objectives.
