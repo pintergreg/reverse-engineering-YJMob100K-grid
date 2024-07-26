@@ -13,10 +13,12 @@ authors:
     email: gergo.pinter@uni-corvinus.hu
     affiliation: Corvinus University of Budapest
     orcid: 'https://orcid.org/0000-0003-4731-3816'
-# identifiers:
-#   - type: doi
-#     value: ""
-#     description: arXiv
+identifiers:
+#  - type: url
+#    value: "https://arxiv.org/abs/2407.18086"
+  - type: other
+    value: "arxiv:2407.18086"
+    description: arXiv preprint of the paper
 repository-code: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
 url: https://github.com/pintergreg/reverse-engineering-YJMob100K-grid
 date-released: 2024-07-25
