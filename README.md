@@ -63,18 +63,27 @@ The spatial distribution of the activity (first) and the number of unique users 
 <img src="figures/activity_terrain_2449.png" alt="spatial distribution of activity" title="spatial distribution of activity" width="300">
 <img src="figures/user_count_terrain_2449.png" alt="spatial distribution of unique users" title="spatial distribution of unique users" width="300">
 
-<!-- ## Citation
+## Citation
 
 Use the following BibTeX entry to cite the paper.
 
 <details>
   <summary>BibTeX</summary>
   <pre>
-
+@article{pinter2024revealing,
+  title={Revealing urban area from mobile positioning data},
+  author={Pint{\'e}r, Gerg{\H{o}}},
+  journal={Scientific Reports},
+  volume={14},
+  number={1},
+  pages={30948},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
   </pre>
 </details>
 
-The code can be cited via [GitHub](https://github.com/pintergreg/reverse-engineering-YJMob100K-grid). -->
+The code can be cited via [GitHub](https://github.com/pintergreg/reverse-engineering-YJMob100K-grid).
 
 ## Data sources
 
