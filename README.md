@@ -108,3 +108,5 @@ The code can be cited via [GitHub](https://github.com/pintergreg/reverse-enginee
 - The documentation and figures are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - The shape files are from OpenStreetMap and licensed under the Open Data Commons Open Database License ([ODbL](https://opendatacommons.org/licenses/odbl/1-0/))
 - The census data was downloaded from the Portal Site of Official Statistics of Japan website (https://www.e-stat.go.jp/)
+
+More details in the [REUSE.toml](REUSE.toml), based on the [REUSE definition](https://reuse.software/).
